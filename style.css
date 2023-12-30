@@ -30,7 +30,7 @@ body {
     background: #fff;
     left: 4%;
     font-family: 'Roboto mono', monospace;
-    color: #52eeff;
+    color: #0a0a0a;
     font-size: 30px;
     padding: 40px;
     display: flex;
@@ -45,4 +45,29 @@ body {
     margin: 60px auto 0 auto;
     display: flex;
     justify-content: space-around;
+}
+
+.buttons button {
+    width: 120px;
+    height: 45px;
+    background-color: #52ff69;
+    color: #0a0a0a;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons button:nth-last-child(2) {
+    background-color: #f7df1e;
+}
+
+.buttons button:nth-last-child(1) {
+    background-color: #f75f1e;
+}
+
+.buttons button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
